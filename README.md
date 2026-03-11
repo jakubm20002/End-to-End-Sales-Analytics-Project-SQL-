@@ -89,7 +89,7 @@ Understanding their purchasing patterns could help improve customer retention st
   - /08_final_report
 
 9. Tools & Environment
-  SQL (SQL Server)
-  CSV files
-  Draw.io
-  Git
+  - SQL (SQL Server)
+  - CSV files
+  - Draw.io
+  - Git
