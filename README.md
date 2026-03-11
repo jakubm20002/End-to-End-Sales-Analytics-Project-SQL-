@@ -1,7 +1,7 @@
 # End-to-End-Sales-Analytics-Project-SQL-
 End-to-End data analytics project: building a data warehouse from CSV files, performing EDA, advanced analytics and customer segmentation.
 
-1. Project Overwiev
+**1. Project Overwiev**
 
 Project is designed to portray complete analytic pipeline. It is based on raw data stored in CSV files. 
 
@@ -11,7 +11,7 @@ In the next step, project provides Exploratory Data Analysis and Advanced Analyt
 
 The final step is a report that includes detailed informations about top customers.
 
-2. Architecture & Data Layers
+**2. Architecture & Data Layers**
 
 Bronze Layer – it includes raw data imported directly from CSV files. The data was imported using a basic import process. Additional configuration was required to handle foreign characters in text fields. After successful import, first quality check of the data was performed.
 
@@ -20,7 +20,7 @@ Unnecessary NULL values were removed, column data types were corrected and the s
 
 Gold Layer – the tables from silver layer were combined into thematic views in a more convenient analytical form. The main purpose of these views is to provide analise-ready-data without unnecessary columns. The last step of this layer wast the third quality check.
 
-3. Data Model
+**3. Data Model**
 
 The Gold Layer is devided into two groups of views. 
 
@@ -30,7 +30,7 @@ The second group consists of dimensions views, created as three thematic views: 
 
 In the customer view a surrogate key is created. Its purpose is to maintain integrity during joining views and provide a easier use during analysis. The business key in the original data is less convenient for analysis and more likely to introduce instability when joining views.
 
-4. Quality control check
+**4. Quality control check**
 
 Bronze Quality Check -  its purpose is to detect imperfections in the raw data, but not to fix them.
 
@@ -38,7 +38,7 @@ Silver Quality Check – verifies that issues detected in the previous step were
 
 Gold Quality Check – checks the consistency of keys between the newly created anlytical views.
 
-5. Exploatory Data Analysis (EDA)
+**5. Exploatory Data Analysis (EDA)**
 
 Dimension Exlporation – this analysis provides geographical range of operation of this company alongside their operational partners and categories of products in which they specialize.
 
@@ -51,7 +51,7 @@ Magnitude Exploration – uses previous analyses to show the distribution of act
 
 Ranking Analysis – shows the most and least profitable customers and suppliers whose products generate the highest revenue.
 
-6. Advanced Analytics
+**6. Advanced Analytics**
 Time-Based Performance Analysis – using information about the company's operating period, it shows the dynamic of sales change month by month and presents monthly seasonality.
 
 Cumulative Analysis – shows sales in a cumulative form over time, making it easier to identify moments when selected thresholds are exceeded.
@@ -62,7 +62,7 @@ Segmentation – provides insight into customer segmentation in two ways: first 
 
 Segmentation comparison – shows difference between arbitrary segmentation approach and the real distribution of customers.
 
-7. Top Customer Analysis (report) 
+**7. Top Customer Analysis (report)** 
 Purpose – providing informations about characteristics and contribution of the top 20% revenue-generating customers.
 
 Key findings:
@@ -77,7 +77,7 @@ The company may benefit after further analysis of these customers, identifying f
 It may also be beneficial to analyse how these customers react to pricing changes. It is possible that these 20% of customers do not require discounts at all or that adjusted discount strategies could improve overall revenue.
 Understanding their purchasing patterns could help improve customer retention strategies.
 
-8. Project structure
+**8. Project structure**
   - /docs
   - /01_database_setup
   - /02_bronze_layer
@@ -88,7 +88,7 @@ Understanding their purchasing patterns could help improve customer retention st
   - /07_advanced_analytics
   - /08_final_report
 
-9. Tools & Environment
+**9. Tools & Environment**
   - SQL (SQL Server)
   - CSV files
   - Draw.io
