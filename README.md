@@ -78,15 +78,15 @@ It may also be beneficial to analyse how these customers react to pricing change
 Understanding their purchasing patterns could help improve customer retention strategies.
 
 8. Project structure
-  /docs
-  /01_database_setup
-  /02_bronze_layer
-  /03_silver_layer
-  /04_gold_layer
-  /05_quality_checks
-  /06_eda
-  /07_advanced_analytics
-  /08_final_report
+  - /docs
+  - /01_database_setup
+  - /02_bronze_layer
+  - /03_silver_layer
+  - /04_gold_layer
+  - /05_quality_checks
+  - /06_eda
+  - /07_advanced_analytics
+  - /08_final_report
 
 9. Tools & Environment
   SQL (SQL Server)
