@@ -52,6 +52,7 @@ Magnitude Exploration – uses previous analyses to show the distribution of act
 Ranking Analysis – shows the most and least profitable customers and suppliers whose products generate the highest revenue.
 
 **6. Advanced Analytics**
+
 Time-Based Performance Analysis – using information about the company's operating period, it shows the dynamic of sales change month by month and presents monthly seasonality.
 
 Cumulative Analysis – shows sales in a cumulative form over time, making it easier to identify moments when selected thresholds are exceeded.
@@ -62,7 +63,8 @@ Segmentation – provides insight into customer segmentation in two ways: first 
 
 Segmentation comparison – shows difference between arbitrary segmentation approach and the real distribution of customers.
 
-**7. Top Customer Analysis (report)** 
+**7. Top Customer Analysis (report)**
+
 Purpose – providing informations about characteristics and contribution of the top 20% revenue-generating customers.
 
 Key findings:
